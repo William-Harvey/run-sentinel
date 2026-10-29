@@ -1,0 +1,12 @@
+{
+  "name": "run-sentinel",
+  "owner": {
+    "name": "William-Harvey"
+  },
+  "plugins": [
+    {
+      "name": "run-sentinel",
+      "source": "./"
+    }
+  ]
+}

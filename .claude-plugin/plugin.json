@@ -1,0 +1,17 @@
+{
+  "name": "run-sentinel",
+  "version": "0.1.0",
+  "description": "Watchdog for long paid runs: /sentinel start <log> watches a run log on a fixed interval, reports completions and failures, kills the run's process group on a timeout or kill pattern so the next item never starts on a busy server, and reports a metric command's rate (e.g. provider calls) each tick.",
+  "userConfig": {
+    "intervalSeconds": {
+      "type": "number",
+      "description": "Check interval in seconds (default 300).",
+      "default": 300,
+      "title": "Check interval (seconds)"
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "William Harvey"
+  }
+}
