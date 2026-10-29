@@ -1,4 +1,4 @@
-# run-sentinel
+# Run Sentinel
 
 A Claude Code plugin that watches a long run's log on a fixed interval, reports completions and failures, kills the run's process group when a timeout or failure pattern appears, and reports the rate of any metric command (for example a provider-call count) each tick.
 
